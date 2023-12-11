@@ -94,16 +94,105 @@ body{
     top: 60px; 
 }
 
-.contact-section{
-    text-align: center;
-    position: absolute;
-    right: 600px;
-    top: 170px;
+.corpo, .corpoContato, body{
+    background-color: #ffd43f;
+    height: 87vb;
+    width: 100%;
 }
 
-.product-section{
-    text-align: center;
+.contactSection {
+    padding: 15px;
+    background-color: #ffeba4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: absolute;
-    right: 600px;
-    top: 170px;
+    top: 195px;
+    left: 28%;
 }
+
+.contactSection h2 {
+    color: #343a40;
+}
+
+.contactForm {
+    display: grid;
+    gap: 20px;
+}
+
+.contactForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contactForm input,
+.contactForm textarea {
+    width: 100%;
+    padding: 5px;
+    border: 4px solid #ced4da;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#messageInput {
+    width: 100%;
+    padding: 5px;
+    border: 4px solid #ced4da;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sendMessageBtn {
+    background-color: #ffd43f;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.contactText {
+    margin-left: 29%;
+    font-style: italic;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loginBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffd43f;
+}
+
+.loginForm {
+    width: 350px;
+    padding
+};  
+
+.faleconosco {
+    margin-left: 29%;
+    font-style: italic;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.corpo12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffd43f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
